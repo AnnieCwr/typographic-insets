@@ -87,3 +87,49 @@ footer {
 */
 
 /* Write your CSS here */
+main > p:first-child:first-letter {
+  float: left;
+  color: white;
+  font-size: 5rem;
+  font-style: normal;
+  border-bottom: 3px solid #333;
+  border-top: 3px solid #333;
+  background-color: #666;
+  padding-right: .3rem;
+  padding-left: .3rem;
+  margin-right: .5rem;
+  margin-bottom: .3rem;
+  clear: left;
+}
+
+p:nth-child(15) {
+  float: left;
+  display:inline;
+  max-width: 300px;
+  clear: left;
+  margin: .5em;
+  border-bottom: 3px solid #333;
+  border-top: 3px solid #333;
+  font-size: 1.5rem;
+  color: #666;
+  text-align: right;
+}
+
+figure {
+  width: 300px;
+  float: right;
+  clear: both;
+  margin: .5rem;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  padding-top: 1rem;
+  padding-bottom: .5rem;
+}
+
+footer {
+  clear: both;;
+}
+
+figcaption {
+  font-style: italic;
+}
